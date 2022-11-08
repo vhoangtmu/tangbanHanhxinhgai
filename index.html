@@ -62,8 +62,8 @@
         hw = w / 2, // half-width
         hh = h / 2,
         opts = {
-          strings: ["Tặng","Bạn", "Hạnh" ,"Xinh Gái"],
-          charSize: 30,
+          strings: ["Tặng Bạn", "Hạnh" ,"Xinh Gái"],
+          charSize: 40,
           charSpacing: 35,
           lineHeight: 40,
 
@@ -111,7 +111,7 @@
         TauQuarter = Tau / 4,
         letters = [];
 
-      ctx.font = opts.charSize + "px Verdana";
+      ctx.font = opts.charSize + "px Courier";
 
       function Letter(char, x, y) {
         this.char = char;
@@ -476,7 +476,7 @@
         hw = w / 2;
         hh = h / 2;
 
-        ctx.font = opts.charSize + "px Verdana";
+        ctx.font = opts.charSize + "px Courier";
       });
     </script>
     <script>
